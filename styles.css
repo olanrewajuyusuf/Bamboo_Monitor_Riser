@@ -1,0 +1,454 @@
+body {
+    max-width: 1440px;
+    font-family: "Commissioner";
+}
+* {
+    box-sizing: border-box;
+    /* padding: 0;
+    margin: 0; */
+}
+#page {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+#hero {
+    object-fit: cover;
+    width: 100%;
+}
+#heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -345px;
+    padding: 0 153px;
+}
+#heading nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-right: -77px;
+}
+#heading nav ul li {
+    margin-right: 40px;
+}
+#heading nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 245);
+}
+#body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 205px;
+    padding-bottom: 100px;
+}
+#bamboo {
+    width: 50%;
+    height: 250px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#logo-master {
+    margin-top: -45px;
+    padding-bottom: 13px;
+}
+#bamboo p, #about #project p, .rating p, fieldset .p3 {
+    color: hsl(0, 0%, 46%);
+    font-size: 15px;
+    font-family: "Commissioner";
+}
+#bamboo #bookmark {
+    width: 160px;
+    height: 45px;
+    color: hsl(0, 0%, 46%);
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+#bamboo #bookmark img{
+    height: 100%;
+    margin-right: 10px;
+}
+#bamboo .button-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 40px 10px 40px;
+}
+#bamboo .button-div button{
+    border-radius: 30px;
+    padding: 0 30px;
+    border: none;
+    background-color: hsl(176, 50%, 47%);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+#barker-data {
+    width: 50%;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+#barker-data #data {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+#barker-data #data .rating {
+    margin-right: 35px;
+    padding-right: 30px;
+    border-right: 2px solid hsl(0, 0%, 90%);
+    height: 60px;
+    margin-top: 40px;
+}
+#barker-data #data .r2 {
+    padding-right: 85px;
+}
+#barker-data #data .r3 {
+    border: none;
+}
+#barker-data #data .rating p {
+    margin-top: -15px;
+    color: hsl(0, 0%, 46%);
+    font-size: 15px;
+}
+#barker-data #data .rating h1 {
+    margin-top: -0px;
+}
+#barker-data #line {
+    width: 87%;
+    height: 10px;
+    background-color: hsl(0, 0%, 95%);
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+#barker-data #line div {
+    width: 78%;
+    height: 10px;
+    background-color: hsl(176, 50%, 47%);
+    border-radius: 5px;
+}
+#about {
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+#about #project {
+    margin: 20px 35px;
+}
+#about #project .sec {
+    margin-top: 40px;
+}
+#about #project h4 {
+    margin-bottom: 40px;
+}
+#about fieldset {
+    margin: 10px 35px ;
+    border-radius: 10px;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+#about #black .p3 {
+    padding: 0 70px 0 0px;
+    width: 100%;
+}
+#about fieldset #flex, #about fieldset #flex2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 10px;
+}
+#about fieldset #flex {
+    margin-top: 20px;
+}
+#about fieldset #flex .p1 {
+    font-weight: 600;
+    font-size: 17px;
+}
+#about fieldset #flex .p2 {
+    font-weight: 600;
+    color: hsl(176, 50%, 47%);
+}
+#about fieldset .p3 {
+    margin: 10px 25px 0 10px;
+}
+#flex2 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#flex2 h2 p {
+    font-size: small;
+    margin-left: 5px;
+}
+#flex2 button {
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: hsl(176, 50%, 47%);
+    border: 1px solid hsl(176, 50%, 47%);
+    color: hsl(0, 0%, 100%);
+}
+.last {
+    color: hsl(0, 0%, 46%);
+}
+#flex2 .stock {
+    background-color: hsl(0, 0%, 90%);
+    border: 1px solid hsl(0, 0%, 90%);
+}
+#cover {
+    width: 95%;
+    height: 250px;
+    background-color: white;
+    opacity: 0.3;
+    margin-top: -250px;
+}
+#flex2 button, #bookmark, li, .button-div :hover {
+    cursor: pointer;
+}
+#flex2 button:hover {
+    background-color: hsl(176, 72%, 28%);
+}
+#modal-page {
+    width: 99%;
+    height: 2004px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    margin: 7px 0;
+    display: none;
+}
+#modal #close-modal {
+    float: right;
+    margin: 10px 20px 0 0px;
+}
+.stroke {
+    display: inline-block;
+    width: 5px;
+    height: 15px;
+    background-color: hsl(0, 0%, 70%);
+    margin-right: -9px;
+    margin-top: 10px;
+    float: right;
+    cursor: pointer;
+}
+.left {
+    transform: rotate(45deg);
+    margin-left: 15px;
+}
+.right {
+    transform: rotate(-45deg);
+    margin-right: -20px;
+}
+.stroke:hover {
+    background-color: black;
+}
+#modal {
+    width: 50%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin-top: 170px;
+}
+#modal p {
+    font-size: 15px;
+    color: hsl(0, 0%, 46%);
+}
+#modal #head {
+    margin: 30px 40px;
+}
+#modal #head h3{
+    font-weight: 900;
+}
+#modal fieldset {
+    margin: 20px 40px;
+    border-radius: 10px;
+    border: 2px solid hsl(0, 0%, 90%);
+}
+label {
+    font-weight: bolder;
+    margin-left: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+label:hover {
+    color: hsl(176, 50%, 47%);
+}
+label input {
+    height: 20px;
+    width: 20px;
+    vertical-align: bottom;
+    margin-right: 10px;
+    margin-bottom: -3px;
+}
+#modal fieldset #flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+#modal fieldset h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-top: -48px;
+    margin-right: 15px;
+}
+#modal fieldset h4 p {
+    font-weight: 400;
+    margin-left: 5px;
+}
+#no-flex {
+    height: 200px;
+}
+#no-flex label {
+    padding-top: 200px;
+}
+#modal fieldset #flex .p4 {
+    margin-left: 15px;
+    margin-top: 18px;
+    font-weight: bold;
+    color: hsl(176, 50%, 47%);
+}
+#modal fieldset .p3 {
+    width: 100%;
+    margin-left: 40px;
+    font-size: 13px;
+    padding-right: 30px;
+}
+#enter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 2px solid hsl(0, 0%, 90%);
+    width: 105%;
+    margin-left: -14px;
+    margin-top: 34px;
+    height: 100px;
+    cursor: pointer;
+    display: none;
+}
+#enter p {
+    margin-left: -50px;
+}
+#enter button {
+    margin-right: -50px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: hsl(176, 50%, 47%);
+    color: white;
+    border: 2px solid hsl(176, 50%, 47%);
+    cursor: pointer;
+}
+#enter div {
+    margin-right: -150px;
+    font-weight: bolder;
+    font-size: 13px;
+    border: 2px solid hsl(0, 0%, 90%);
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+#enter div .num {
+    padding-right: 5px;
+}
+#enter div:hover {
+    border-color: hsl(176, 50%, 47%);
+}
+#enter button:hover {
+    border-color: hsl(176, 72%, 28%);
+    background-color: hsl(176, 72%, 28%);
+}
+#enter div:hover .num {
+    border-right: 2px solid hsl(176, 50%, 47%);
+}
+#enter div .dol {
+    color: hsl(0, 0%, 70%);
+    margin-left: -10px;
+    padding-right: 7px;
+}
+#cover2 {
+    width: 95%;
+    height: 200px;
+    background-color: white;
+    opacity: 0.5;
+    margin-top: -190px;
+}
+#modal-complete {
+    width: 100%;
+    height: 2000px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: auto;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+#modal-complete #section {
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    margin-top: 445px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#modal-complete #section p {
+    padding: 0;
+    margin: 5px;
+    color: hsl(0, 0%, 46%);
+}
+#modal-complete #section #check {
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+#modal-complete #section button {
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    background-color: hsl(176, 50%, 47%);
+    border: 2px solid hsl(176, 50%, 47%);
+    margin-bottom: -50px;
+    margin-top: 30px;
+}
+#modal-complete #section button:hover {
+    background-color: hsl(176, 72%, 28%);
+    border: 2px solid hsl(176, 72%, 28%);
+    cursor: pointer;
+}
